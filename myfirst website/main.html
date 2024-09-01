@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/76ab051249.js" crossorigin="anonymous"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/main.js"></script>
+    <title>Roh gun web site</title>
+</head>
+<body>
+    <header>
+        <span class="header_name">Roh</span><span class="header_name2">Gun</span>
+        <div class="header_section">
+            <div><a href="main.html"><i class="fa-solid fa-house"></i>Home</a></div>
+            <div><a href="mh.html"><i class="fa-solid fa-camera"></i>Shop</a></div>
+            <div><a href="cm.html"><i class="fa-solid fa-phone"></i>Contact me</a></div>
+            <div><a href="https://www.instagram.com/roh_gun01/"><i class="fa-brands fa-instagram"></i>instagram</a></div>
+        </div>
+    </header>
+     <div id="time" class="time"></div>
+     <div id="date" class="date"></div>
+<button class="search_item">Search
+    <form action="https://www.google.co.kr/search" method="GET">
+        <input name="q" type="text" class="search_item2">
+    </form>
+</button>
+<div class="cus_user"><span class="user_name"><i class="fa-solid fa-user"></i>User</span>
+    <button id="log_out" type="button" onclick="location.href='index.html'">Log-out <i class="fa-solid fa-right-from-bracket"></i></button>
+    <div class="mail">User@email.com</div>
+    <div class="content_icon">
+        <button class="icons_btn"><i class="fa-solid fa-envelope"></i>Mail</button>
+        <button class="icons_btn"><i class="fa-solid fa-mug-saucer"></i>Cafe</button>
+        <button class="icons_btn"><i class="fa-solid fa-blog"></i>Blog</button>
+        <button class="icons_btn"><i class="fa-brands fa-cc-paypal"></i>Pay</button>
+    </div>
+</div>
+<!--  중간 화면 구성  -->
+  <div class="news_page">
+     <div class="bb_ss"> OUR BUSINESS
+        <ul>
+            <div class="img_bg"><img class="im_g" src="img/반도체.jpeg" > <input   class="change_input"     type="button" value="IT" id="IT" onclick="toIT();" ></div>
+            <div class="img_bg"><img class="im_g" src="img/golf.jpeg"><input     class="change_input" type="button" value="Golf"  id="GOLF" onclick="toGolf();"></div>
+            <div class="img_bg"><img class="im_g" src="img/fitness.jpg" ><input   class="change_input"   type="button" value="Fitness" id="Fitness" onclick="toFit();"></div>
+            <div class="img_bg"><img class="im_g" src="img/entertainment.jpg"><input class="change_input"type="button" value="Entertainment" id="Entertain" onclick="toEn();"></div>
+        </ul>
+     </div>
+  </div>
+    
+   
+
+    
+    
+    
+    
+</body>
+</html>

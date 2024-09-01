@@ -1,0 +1,150 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+body{
+    background-color: skyblue;
+    text-align: center;
+    position: relative;
+    
+    
+}
+.header_name,.header_name2{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+   
+    
+    
+}
+.header_section{
+   display: flex;
+   justify-content: space-between;
+}
+a{
+    color: white;
+    font-size: 25px;
+    
+}
+.date{
+    font-size: 45px;
+    color: white;
+}
+.time{
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
+.search_item{
+   background-color: white;
+    font-size: 30px;
+    border: 0px;
+    color: skyblue;
+    font-weight: bold;
+    border-radius: 50px;
+    width: 1000px;
+}
+.search_item2{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    width: 800px;
+    height: 28px;
+    border-radius: 50px;
+    border: 2px dotted black;   
+}
+.user_name{
+    font-size: 30px;
+    color: white;
+}
+#log_out{
+    align-items: end;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 40%;
+    color: skyblue;
+   background-color: white;
+    border: 0;
+}
+.mail{
+    font-size: 24px;
+    justify-content: center;
+    margin: 10px;
+    margin-bottom:none;
+    color: white;
+}
+.content_icon{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.icons_btn{
+    border-radius: 20%;
+    font-size: 30px;
+    color: skyblue;
+   background-color: white;
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+
+}
+.news_page{
+    margin-top: 40px ;
+    
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5%;
+    border: 10px solid white;
+}
+ul{
+   
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding: 0;
+    
+}
+
+.im_g{
+   
+    justify-content: center;
+    display: block;
+    align-items: center;
+    width: 250px;
+    height: 400px;
+    margin: 20px;
+    padding: none;
+    border-radius: 10%;
+    border: 10px solid white;
+    
+}
+.img_bg{
+   border-radius: 10%;
+  
+   position: static;
+   margin-bottom: 30px;
+   margin-left: 1px;
+   padding-bottom: none;
+   color: beige;
+   opacity: 90%;
+   
+  
+}
+.change_input{
+   
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    background-color: skyblue;
+    border-radius: 15px;
+    border: 2px solid;
+    margin-bottom: 20px;
+}
+
+
